@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { AiFillInstagram, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { avatar2 } from "@/assets/icons";
@@ -39,7 +39,7 @@ const Hero = () => {
           accept more challenges. I love to create awesome projects.
         </p>
       </div>
-      <div className="text-2xl text-gray-600 flex justify-center gap-16 py-3">
+      <div className="text-4xl text-gray-600 flex justify-center gap-16 py-3">
         <a href="#">
           <AiFillLinkedin />
         </a>
@@ -50,8 +50,13 @@ const Hero = () => {
           <AiFillGithub />
         </a>
       </div>
-      <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
-        <Image src={avatar2} layout="fill" objectFit="cover" />
+      <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden object-cover">
+        <Image
+          src={avatar2}
+          placeholder="blur"
+          layout="fill"
+          objectFit="cover"
+        />
       </div>
     </section>
   );
