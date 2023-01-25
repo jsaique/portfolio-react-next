@@ -54,7 +54,7 @@ const Hero = () => {
           src={avatar2}
           placeholder="blur"
           fill
-          // sizes="width: 20rem, height: 20rem"
+          sizes="width: 20rem, height: 20rem"
           className="object-cover"
           alt="Johns Avatar"
         />

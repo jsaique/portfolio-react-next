@@ -31,7 +31,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
-            layout="responsive"
+            sizes="100vw"
             alt="web1"
           />
         </div>
@@ -41,7 +41,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
-            layout="responsive"
+            sizes="100vw"
             alt="web2"
           />
         </div>
@@ -51,7 +51,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
-            layout="responsive"
+            sizes="100vw"
             alt="web3"
           />
         </div>
@@ -61,7 +61,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
-            layout="responsive"
+            sizes="100vw"
             alt="web4"
           />
         </div>
@@ -71,7 +71,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
-            layout="responsive"
+            sizes="100vw"
             alt="web5"
           />
         </div>
@@ -81,7 +81,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
-            layout="responsive"
+            sizes="100vw"
             alt="web6"
           />
         </div>
