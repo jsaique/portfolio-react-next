@@ -1,10 +1,10 @@
 import React from "react";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+import { BsFillMoonStarsFill, BsSun } from "react-icons/bs";
 
 const Navbar = ({ darkMode, setDarkMode }) => {
   return (
     <header className="">
-      <nav className="py-10 mb-12 flex justify-between">
+      <div className="py-10 mb-12 flex justify-between">
         <h1 className="text-xl font-burtons uppercase dark:text-gray-100">
           Jass
         </h1>
@@ -24,7 +24,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             </a>
           </li>
         </ul>
-      </nav>
+      </div>
     </header>
   );
 };

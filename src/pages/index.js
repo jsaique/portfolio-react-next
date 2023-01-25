@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Hero from "@/components/hero/Hero";
 import Skills from "@/components/skills/Skills";
 import Portfolio from "@/components/portfolio/Portfolio";
+import Nav from "@/components/nav/Nav";
 import { useState } from "react";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
           <Hero />
           <Skills />
           <Portfolio />
+          <Nav />
         </main>
       </div>
     </>

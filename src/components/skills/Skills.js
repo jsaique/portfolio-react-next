@@ -24,7 +24,7 @@ const Skills = () => {
       <div className="lg:flex gap-10">
         <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1">
           <Image src={code} width={100} height={100} />
-          <h3 className="pt-8 pb-2 text-lg font-medium dark:text-gray-100">
+          <h3 className="pt-8 pb-2 text-lg font-medium dark:text-gray-400">
             Programing Skills
           </h3>
           <p className="py-2 dark:text-gray-100">I love learning new skills</p>
@@ -37,11 +37,11 @@ const Skills = () => {
 
         <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1">
           <Image src={design} width={100} height={100} />
-          <h3 className="pt-8 pb-2 text-lg font-medium dark:text-gray-100">
+          <h3 className="pt-8 pb-2 text-lg font-medium dark:text-gray-400">
             Beautiful Designs
           </h3>
           <p className="py-2 dark:text-gray-100">
-            I love creating beautiful designs{" "}
+            I love creating beautiful designs
           </p>
           <h4 className="py-5 text text-teal-600">Design tools I use</h4>
           <p className="py-1 text-gray-800 dark:text-gray-100">Blender</p>
@@ -50,7 +50,7 @@ const Skills = () => {
 
         <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1">
           <Image src={consulting} width={100} height={100} />
-          <h3 className="pt-8 pb-2 text-lg font-medium dark:text-gray-100">
+          <h3 className="pt-8 pb-2 text-lg font-medium dark:text-gray-400">
             Beautiful Designs
           </h3>
           <p className="py-2 dark:text-gray-100">
