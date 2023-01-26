@@ -1,5 +1,6 @@
 import React from "react";
-import { BsFillMoonStarsFill, BsSun } from "react-icons/bs";
+import { BsFillMoonStarsFill } from "react-icons/bs";
+import { RiSunFill } from "react-icons/ri";
 
 const Navbar = ({ darkMode, setDarkMode }) => {
   return (
@@ -9,11 +10,15 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           Jass
         </h1>
         <ul className="flex items-center">
-          <li>
-            <BsFillMoonStarsFill
-              onClick={() => setDarkMode(!darkMode)}
-              className="cursor-pointer text-2xl dark:fill-gray-100"
-            />
+          <li
+            onClick={() => setDarkMode(!darkMode)}
+            className="cursor-pointer text-2xl "
+          >
+            {darkMode ? (
+              <BsFillMoonStarsFill />
+            ) : (
+              <RiSunFill className="dark:fill-gray-100" />
+            )}
           </li>
           <li>
             <a
