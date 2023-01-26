@@ -23,3 +23,7 @@ a {
   font-family: "burtons";
   src: url("../assets/Burtons.otf");
 }
+
+.active {
+  color: #22d3ee;
+}

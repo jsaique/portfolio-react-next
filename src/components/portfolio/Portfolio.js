@@ -9,7 +9,7 @@ import { web6 } from "@/assets/icons";
 
 const Portfolio = () => {
   return (
-    <section>
+    <section id="portfolio">
       <div>
         <h3 className="text-3xl py-1 dark:text-gray-400">Portfolio</h3>
         <p className="text-md py-2 leading-8 text-gray-800 md:text-xl dark:text-gray-100">

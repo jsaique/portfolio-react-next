@@ -20,7 +20,7 @@ const Hero = () => {
   });
 
   return (
-    <section>
+    <section id="home">
       <div className="text-center p-10">
         <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
           John Aries Saique

@@ -6,7 +6,7 @@ import { consulting } from "@/assets/icons";
 
 const Skills = () => {
   return (
-    <section>
+    <section id="skills">
       <div>
         <h3 className="text-3xl py-1 dark:text-gray-400">My Skills</h3>
         <p className="text-md py-2 leading-8 text-gray-800 md:text-xl dark:text-gray-100">
