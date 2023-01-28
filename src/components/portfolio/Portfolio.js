@@ -1,11 +1,6 @@
 import React from "react";
-import Image from "next/image";
-import { web1 } from "@/assets/icons";
-import { web2 } from "@/assets/icons";
-import { web3 } from "@/assets/icons";
-import { web4 } from "@/assets/icons";
-import { web5 } from "@/assets/icons";
-import { web6 } from "@/assets/icons";
+import { web1, web2, web3, web4, web5, web6 } from "@/assets/icons";
+import PortfolioCard from "./PortfolioCard";
 
 const Portfolio = () => {
   return (
@@ -19,72 +14,48 @@ const Portfolio = () => {
           nemo dolorum <span className="text-teal-500"> atque</span> atque magni
           sit
         </p>
-        <p className="text-md py-2 leading-8 text-gray-800 md:text-xl dark:text-gray-100">
+        <p className="text-md py-2 mb-6 leading-8 text-gray-800 md:text-xl dark:text-gray-100">
           vero blanditiis eum, distinctio qui voluptates fugiat officiis
           explicabo minus placeat facilis!
         </p>
       </div>
-      <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+      {/* <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap bg-red-500">
         <div className="basis-1/3 flex-1">
-          <Image
+          <PortfolioCard
+            title="Comming Soon"
+            des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicado quibusdam voluptate sapiente voluptatibus harum quidem!"
             src={web1}
-            className="rounded-lg object-cover"
-            width={"100%"}
-            height={"100%"}
-            sizes="100vw"
-            alt="web1"
           />
         </div>
         <div className="basis-1/3 flex-1">
-          <Image
+          <PortfolioCard
+            title="Comming Soon"
+            des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicado quibusdam voluptate sapiente voluptatibus harum quidem!"
             src={web2}
-            className="rounded-lg object-cover"
-            width={"100%"}
-            height={"100%"}
-            sizes="100vw"
-            alt="web2"
           />
         </div>
-        <div className="basis-1/3 flex-1">
-          <Image
-            src={web3}
-            className="rounded-lg object-cover"
-            width={"100%"}
-            height={"100%"}
-            sizes="100vw"
-            alt="web3"
-          />
-        </div>
-        <div className="basis-1/3 flex-1">
-          <Image
-            src={web4}
-            className="rounded-lg object-cover"
-            width={"100%"}
-            height={"100%"}
-            sizes="100vw"
-            alt="web4"
-          />
-        </div>
-        <div className="basis-1/3 flex-1">
-          <Image
-            src={web5}
-            className="rounded-lg object-cover"
-            width={"100%"}
-            height={"100%"}
-            sizes="100vw"
-            alt="web5"
-          />
-        </div>
-        <div className="basis-1/3 flex-1">
-          <Image
-            src={web6}
-            className="rounded-lg object-cover"
-            width={"100%"}
-            height={"100%"}
-            sizes="100vw"
-            alt="web6"
-          />
-        </div>
+      </div> */}
+      <div className="grid grid-cols-1 md:grid-cols-2 xl: grid- cols-3 gap-10">
+        <PortfolioCard
+          title="Coming Soon"
+          des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicado quibusdam voluptate sapiente voluptatibus harum quidem!"
+          src={web1}
+        />
+        <PortfolioCard
+          title="Coming Soon"
+          des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicado quibusdam voluptate sapiente voluptatibus harum quidem!"
+          src={web2}
+        />
+        <PortfolioCard
+          title="Coming Soon"
+          des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicado quibusdam voluptate sapiente voluptatibus harum quidem!"
+          src={web5}
+        />
+        <PortfolioCard
+          title="Coming Soon"
+          des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicado quibusdam voluptate sapiente voluptatibus harum quidem!"
+          src={web4}
+        />
       </div>
     </section>
   );

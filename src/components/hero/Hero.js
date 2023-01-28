@@ -40,13 +40,13 @@ const Hero = () => {
       </div>
       <div className="text-4xl text-gray-600 flex justify-center gap-16 py-3 dark:text-gray-400">
         <a href="#">
-          <AiFillLinkedin />
+          <AiFillLinkedin className="hover:text-teal-600 duration-300" />
         </a>
         <a href="#">
-          <AiFillInstagram />
+          <AiFillInstagram className="hover:text-teal-600 duration-300" />
         </a>
         <a href="#">
-          <AiFillGithub />
+          <AiFillGithub className="hover:text-teal-600 duration-300" />
         </a>
       </div>
       <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden object-cover md:h-96 md:w-96">
