@@ -6,6 +6,7 @@ import Portfolio from "@/components/portfolio/Portfolio";
 import Nav from "@/components/nav/Nav";
 import Contact from "@/components/contact/Contact";
 import { useState } from "react";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   const [darkmode, setDarkMode] = useState("false");
@@ -24,6 +25,7 @@ export default function Home() {
           <Skills />
           <Portfolio />
           <Contact />
+          <Footer />
           <Nav />
         </main>
       </div>
