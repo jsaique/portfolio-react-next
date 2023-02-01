@@ -17,7 +17,7 @@ const PortfolioCard = ({ title, des, src }) => {
         <div className="-w-full mt-5 flex flex-col gap-6">
           <div>
             <div className="flex justify-between items-center">
-              <h3 className="text-lg font-normal dark:text-gray-200">
+              <h3 className="text-xl font-medium dark:text-gray-200">
                 {title}
               </h3>
               <div className="flex gap-2">
@@ -29,7 +29,7 @@ const PortfolioCard = ({ title, des, src }) => {
                 </a>
               </div>
             </div>
-            <p className="mt-3 tracking-wide hover:text-gray-800 dark:text-gray-100 dark:hover:text-gray-300">
+            <p className="mt-3 text-md tracking-wide hover:text-gray-800 dark:text-gray-100 dark:hover:text-gray-300">
               {des}
             </p>
           </div>

@@ -14,22 +14,22 @@ const Contact = () => {
       <h3 className="text-xl text-center mb-2 dark:text-gray-100">
         Contact Me
       </h3>
-      <div className="md:grid grid-cols-2">
-        <div className="grid grid-cols-1 md:grid-row xl: grid- cols-3">
-          <ContactsCard
-            src={email}
-            method="Email"
-            des="Send me an email"
-            email="Click Here!"
-          />
-          <ContactsCard
-            src={messenger}
-            method="Messenger"
-            des="Facebook direct message"
-            cta="Send a message"
-          />
-        </div>
-        <div>
+      <div className="w-full">
+        <div className="w-full h-auto lg:flex lg:justify-between gap-10">
+          <div>
+            <ContactsCard
+              src={email}
+              method="Email"
+              des="Send me an email"
+              email="Click Here"
+            />
+            <ContactsCard
+              src={messenger}
+              method="Messenger"
+              des="Facebook direct message"
+              cta="Send a message"
+            />
+          </div>
           <ContactsForm />
         </div>
       </div>

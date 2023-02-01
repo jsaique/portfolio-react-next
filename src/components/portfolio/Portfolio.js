@@ -19,7 +19,7 @@ const Portfolio = () => {
           explicabo minus placeat facilis!
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl: grid- cols-3 gap-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <PortfolioCard
           title="Coming Soon"
           des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicado quibusdam voluptate sapiente voluptatibus harum quidem!"
