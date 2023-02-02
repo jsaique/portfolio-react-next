@@ -27,3 +27,7 @@ a {
 .active {
   color: #22d3ee;
 }
+
+::selection {
+  background-color: #ccfbf1;
+}

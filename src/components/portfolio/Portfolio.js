@@ -19,13 +19,13 @@ const Portfolio = () => {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <PortfolioCard
-          title="Space Tourism"
-          des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicado quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="Space Tourism - Comming Soon"
+          des="This is a Frontend Mentor project that is is created from React."
           src={web1}
         />
         <PortfolioCard
           title="Coming Soon"
-          des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicado quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicado quibusdam voluptate quidem!"
           src={web2}
         />
       </div>

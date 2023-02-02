@@ -1,11 +1,11 @@
 import Head from "next/head";
+import { useState } from "react";
 import Navbar from "@/components/navbar/Navbar";
 import Hero from "@/components/hero/Hero";
 import Skills from "@/components/skills/Skills";
 import Portfolio from "@/components/portfolio/Portfolio";
-import Nav from "@/components/nav/Nav";
 import Contact from "@/components/contact/Contact";
-import { useState } from "react";
+import Nav from "@/components/nav/Nav";
 import Footer from "@/components/footer/Footer";
 
 export default function Home() {
