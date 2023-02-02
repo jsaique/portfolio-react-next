@@ -13,7 +13,10 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           Jass
         </h1>
         <ul className="flex items-center">
-          <Tippy animation={"scale"} content={"Click me"}>
+          <Tippy
+            animation={"scale"}
+            content={darkMode ? "Dark mode" : "Light mode"}
+          >
             <li
               onClick={() => setDarkMode(!darkMode)}
               className="cursor-pointer text-2xl "

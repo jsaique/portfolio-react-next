@@ -52,6 +52,9 @@ const Skills = () => {
           <p className="py-1 text-gray-800 dark:text-gray-100">
             <span className="text-red-500">In progress - </span> Blender
           </p>
+          <p className="py-1 text-gray-800 dark:text-gray-100">
+            <span className="text-red-500">In progress - </span> Figma
+          </p>
           <p className="py-1 text-gray-800 dark:text-gray-100">Nomad</p>
           <p className="py-1 text-gray-800 dark:text-gray-100">Procreate</p>
         </div>
@@ -75,6 +78,9 @@ const Skills = () => {
           </p>
           <p className="py-1 text-gray-800 dark:text-gray-100">
             Positive attitude
+          </p>
+          <p className="py-1 text-gray-800 dark:text-gray-100">
+            Execellent communication skills
           </p>
         </div>
       </div>
