@@ -8,10 +8,9 @@ const ContactsCard = ({ src, des, method, cta, email }) => {
         <div>
           <Image
             src={src}
-            className="w-20 h-20
-          "
-            alt=""
-            priority
+            className="w-20 h-20"
+            alt="media image"
+            placeholder="blur"
           />
         </div>
         <div>

@@ -12,7 +12,7 @@ const Contact = () => {
         Get in touch
       </h2>
       <h3 className="text-xl text-center mb-2 dark:text-gray-100">
-        Contact Me
+        Let me know what you think
       </h3>
       <div className="w-full">
         <div className="w-full h-auto lg:flex lg:justify-between gap-10">

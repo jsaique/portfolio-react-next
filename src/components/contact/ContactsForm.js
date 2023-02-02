@@ -18,28 +18,30 @@ const ContactsForm = () => {
   //Form
   const form = useRef();
 
-  //EmailJs
+  //EmailJS
   const sendEmail = (e) => {
     e.preventDefault();
     setFormErrors(validate(formValues));
     setSubmitted(true);
 
-    emailjs
-      .sendForm(
-        "service_dcrgcsk",
-        "template_9jg5whq",
-        form.current,
-        "DovzGJEX_b7hIpw4A"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    form.current.reset();
+    if (formValues.email && formValues.subject && formValues.message) {
+      emailjs
+        .sendForm(
+          "service_dcrgcsk",
+          "template_9jg5whq",
+          form.current,
+          "DovzGJEX_b7hIpw4A"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      form.current.reset();
+    }
   };
 
   useEffect(() => {
@@ -59,7 +61,8 @@ const ContactsForm = () => {
     }
     if (!values.email) {
       errors.email = "* Email is required";
-    } else if (!regex.test(values.email)) {
+    }
+    if (!regex.test(values.email)) {
       errors.email = "* Enter a valid email";
     }
     if (!values.subject) {
