@@ -38,7 +38,7 @@ const Hero = () => {
           />
         </h3>
         <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-100">
-          I'm a self-taught software developer who is passionate about solving
+          I am a self-taught software developer who is passionate about solving
           problems and learning new things.
         </p>
       </div>
@@ -47,6 +47,7 @@ const Hero = () => {
           <a
             href="https://www.linkedin.com/in/john-saique-a20797144/"
             target="_blank"
+            rel="noreferrer"
           >
             <AiFillLinkedin className="hover:text-teal-600 duration-300" />
           </a>
@@ -57,7 +58,7 @@ const Hero = () => {
           </a>
         </Tippy> */}
         <Tippy animation={"scale"} content={"Github"}>
-          <a href="https://github.com/jsaique" target="_blank">
+          <a href="https://github.com/jsaique" target="_blank" rel="noreferrer">
             <AiFillGithub className="hover:text-teal-600 duration-300" />
           </a>
         </Tippy>

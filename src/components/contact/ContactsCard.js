@@ -19,6 +19,7 @@ const ContactsCard = ({ src, des, method, cta, email }) => {
           <div>
             <a
               target="_blank"
+              rel="noreferrer"
               href={
                 email ? "mailto:jsaique11@gmail.com" : "https://m.me/johnsaique"
               }

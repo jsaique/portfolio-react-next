@@ -27,7 +27,7 @@ const Skills = () => {
       </div>
       <div className="lg:flex gap-10">
         <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1">
-          <Image src={code} width={100} height={100} />
+          <Image src={code} alt="coding image" width={100} height={100} />
           <h3 className="pt-8 pb-2 text-lg font-medium dark:text-gray-400">
             Programing Skills
           </h3>
@@ -41,7 +41,7 @@ const Skills = () => {
         </div>
 
         <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1">
-          <Image src={design} width={100} height={100} />
+          <Image src={design} alt="design image" width={100} height={100} />
           <h3 className="pt-8 pb-2 text-lg font-medium dark:text-gray-400">
             Beautiful Designs
           </h3>
@@ -60,7 +60,12 @@ const Skills = () => {
         </div>
 
         <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1">
-          <Image src={consulting} width={100} height={100} />
+          <Image
+            src={consulting}
+            alt="thumbs up image"
+            width={100}
+            height={100}
+          />
           <h3 className="pt-8 pb-2 text-lg font-medium dark:text-gray-400">
             Bonus Skills
           </h3>
