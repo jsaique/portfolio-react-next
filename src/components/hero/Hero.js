@@ -39,7 +39,7 @@ const Hero = () => {
         </h3>
         <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-100">
           I am a self-taught software developer who is passionate about solving
-          problems and learning new things.
+          problems and learning new skills.
         </p>
       </div>
       <div className="text-4xl text-gray-600 flex justify-center gap-16 py-3 dark:text-gray-400">

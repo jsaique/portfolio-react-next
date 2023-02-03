@@ -20,7 +20,7 @@ const Portfolio = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <PortfolioCard
           title="Space Tourism - Comming Soon"
-          des="This is a Frontend Mentor project that is is created from React."
+          des="This is a Frontend Mentor project."
           src={web1}
         />
         <PortfolioCard
