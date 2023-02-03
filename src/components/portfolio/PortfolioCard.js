@@ -29,7 +29,7 @@ const PortfolioCard = ({ title, des, src }) => {
                     <BsGithub className="text-2xl text-gray-600 hover:text-teal-600 duration-300 cursor-pointer dark:text-gray-100 dark:hover:text-teal-400" />
                   </a>
                 </Tippy>
-                <Tippy animation={"scale"} content={"Code"}>
+                <Tippy animation={"scale"} content={"Demo"}>
                   <a href="#">
                     <BsGlobe className="text-2xl text-gray-600 hover:text-teal-600 duration-300 cursor-pointer dark:text-gray-100 dark:hover:text-teal-400" />
                   </a>
