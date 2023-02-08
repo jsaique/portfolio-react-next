@@ -13,7 +13,7 @@ const Hero = () => {
     words: [
       "a Self-Taught.",
       "a Coder.",
-      "a Software Developer.",
+      "a Frontend Developer.",
       "a Problem Solver",
       "a Designer",
     ],
@@ -38,7 +38,7 @@ const Hero = () => {
           />
         </h3>
         <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-100">
-          I am a self-taught software developer who is passionate about solving
+          I am a self-taught frontend developer who is passionate about solving
           problems and learning new skills.
         </p>
       </div>
