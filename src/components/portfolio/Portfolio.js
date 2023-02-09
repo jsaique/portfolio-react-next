@@ -23,14 +23,14 @@ const Portfolio = () => {
           des="This is a Frontend Mentor project."
           src={web1}
           code="https://github.com/jsaique/Space-Tourism.git"
-          // demo={}
+          demo={"#"}
         />
         <PortfolioCard
           title="Coming Soon"
           des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicado quibusdam voluptate quidem!"
           src={web2}
-          // code={}
-          // demo={}
+          code="#"
+          demo="#"
         />
       </div>
     </section>
