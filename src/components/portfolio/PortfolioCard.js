@@ -5,7 +5,7 @@ import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import "tippy.js/animations/scale.css";
 
-const PortfolioCard = ({ title, des, src }) => {
+const PortfolioCard = ({ title, des, src, code }) => {
   return (
     <div>
       <div className="w-full p-4 my-10 xl:px-12 h-auto xl:py-10 rounded-lg shadow-lg flex flex-col group">
@@ -25,7 +25,7 @@ const PortfolioCard = ({ title, des, src }) => {
               </h3>
               <div className="flex gap-2">
                 <Tippy animation={"scale"} content={"Code"}>
-                  <a href="#">
+                  <a href={code}>
                     <BsGithub className="text-2xl text-gray-600 hover:text-teal-600 duration-300 cursor-pointer dark:text-gray-100 dark:hover:text-teal-400" />
                   </a>
                 </Tippy>
