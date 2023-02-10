@@ -23,7 +23,7 @@ const Portfolio = () => {
           des="This is a Frontend Mentor project."
           src={web1}
           code="https://github.com/jsaique/Space-Tourism.git"
-          demo={"#"}
+          demo={"https://jass-space-tourism.netlify.app/"}
         />
         <PortfolioCard
           title="Coming Soon"
