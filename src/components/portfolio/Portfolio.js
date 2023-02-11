@@ -19,11 +19,11 @@ const Portfolio = () => {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <PortfolioCard
-          title="Space Tourism - Comming Soon"
-          des="This is a Frontend Mentor project."
+          title="Space Tourism"
+          des="This is one of the first Frontend Mentor project that I completed, I learned a lot of new skills from this project using (React anad SCSS)."
           src={web1}
           code="https://github.com/jsaique/Space-Tourism.git"
-          demo={"https://jass-space-tourism.netlify.app/"}
+          demo={"https://jass-space-tourism.netlify.app"}
         />
         <PortfolioCard
           title="Coming Soon"

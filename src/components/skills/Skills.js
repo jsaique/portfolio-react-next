@@ -37,7 +37,6 @@ const Skills = () => {
           <p className="py-1 text-gray-800 dark:text-gray-100">React</p>
           <p className="py-1 text-gray-800 dark:text-gray-100">Tailwind</p>
           <p className="py-1 text-gray-800 dark:text-gray-100">Git</p>
-          <p className="py-1 text-gray-800 dark:text-gray-100">Parcel</p>
         </div>
 
         <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1">

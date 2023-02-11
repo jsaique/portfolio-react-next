@@ -9,14 +9,19 @@ const PortfolioCard = ({ title, des, src, code, demo }) => {
   return (
     <div>
       <div className="w-full p-4 my-10 xl:px-12 h-auto xl:py-10 rounded-lg shadow-lg flex flex-col group">
-        <div className="w-full h-[80%] overflow-hidden rounded-lg">
+        <a
+          className="w-full h-[80%] overflow-hidden rounded-lg"
+          href={demo}
+          target="_blank"
+          rel="noreferrer"
+        >
           <Image
             className="w-full object-cover group-hover:scale-110 duration-300 cursor-pointer"
             src={src}
             alt="project image"
             placeholder="blur"
           />
-        </div>
+        </a>
         <div className="-w-full mt-5 flex flex-col gap-6">
           <div>
             <div className="flex justify-between items-center">
