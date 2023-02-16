@@ -20,17 +20,17 @@ const Portfolio = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <PortfolioCard
           title="Space Tourism"
-          des="This is one of the first Frontend Mentor project that I completed, I learned a lot of new skills from this project using (React anad SCSS)."
+          des="This is one of the first Frontend Mentor project that I completed, I learned a lot of new skills from this project using (React and SCSS)."
           src={web1}
-          code="https://github.com/jsaique/Space-Tourism.git"
+          code="https://github.com/jsaique/Space-Tourism"
           demo={"https://jass-space-tourism.netlify.app"}
         />
         <PortfolioCard
-          title="Coming Soon"
-          des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicado quibusdam voluptate quidem!"
+          title="Thoughty App"
+          des="A place where you can share your thoughts and others can put comments on it, If you hae a typo with your post just got to 'My post' and edit it! (Built with Nextjs(React) and Firebase)."
           src={web2}
-          code="#"
-          demo="#"
+          code={"https://github.com/jsaique/thoughty-app"}
+          demo={"https://thoughty-app.vercel.app"}
         />
       </div>
     </section>
