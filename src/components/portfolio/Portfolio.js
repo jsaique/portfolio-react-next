@@ -27,7 +27,7 @@ const Portfolio = () => {
         />
         <PortfolioCard
           title="Thoughty App"
-          des="A place where you can share your thoughts and others can put comments on it, If you hae a typo with your post just got to 'My post' and edit it! (Built with Nextjs(React) and Firebase)."
+          des="A place where you can share your thoughts and others can put comments on it, If you have a typo on your post just go to 'My post' and edit it! (Built with Nextjs(React) and Firebase)."
           src={web2}
           code={"https://github.com/jsaique/thoughty-app"}
           demo={"https://thoughty-app.vercel.app"}
