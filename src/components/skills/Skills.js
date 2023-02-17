@@ -35,6 +35,7 @@ const Skills = () => {
           <h4 className="py-5 text text-teal-600">My toolbox</h4>
           <p className="py-1 text-gray-800 dark:text-gray-100">Javascript</p>
           <p className="py-1 text-gray-800 dark:text-gray-100">React</p>
+          <p className="py-1 text-gray-800 dark:text-gray-100">Next.js</p>
           <p className="py-1 text-gray-800 dark:text-gray-100">Tailwind</p>
           <p className="py-1 text-gray-800 dark:text-gray-100">Git</p>
         </div>
