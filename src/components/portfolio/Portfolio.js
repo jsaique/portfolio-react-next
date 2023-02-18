@@ -33,7 +33,7 @@ const Portfolio = () => {
           demo={"https://thoughty-app.vercel.app"}
         />
         <PortfolioCard
-          title="QR code Generator"
+          title="QR Code Generator"
           des="A web app where you can create your own QR code with a URL or a regular text be creative with it.(Built with React)"
           src={web3}
           code={"https://github.com/jsaique/qr-code-generator"}
