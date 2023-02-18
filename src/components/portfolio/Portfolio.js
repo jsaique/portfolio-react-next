@@ -32,6 +32,20 @@ const Portfolio = () => {
           code={"https://github.com/jsaique/thoughty-app"}
           demo={"https://thoughty-app.vercel.app"}
         />
+        <PortfolioCard
+          title="QR Generator"
+          des="An app where you can create your own QR code with a URL or a regular text be creative with it."
+          src={web3}
+          code={"https://github.com/jsaique/qr-code-generator"}
+          demo={"https://jassqrcodegenerator.netlify.app"}
+        />
+        <PortfolioCard
+          title="Comming soon"
+          des="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut suscipit ante, a fermentum nibh. Donec porttitor a ipsum et condimentum. Aliquam at eros ac turpis hendrerit aliquet quis et tellus. Cras sit amet rhoncus mauris."
+          src={web4}
+          code={"#"}
+          demo={"#"}
+        />
       </div>
     </section>
   );
