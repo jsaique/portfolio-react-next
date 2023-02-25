@@ -8,7 +8,7 @@ import "tippy.js/animations/scale.css";
 const PortfolioCard = ({ title, des, src, code, demo }) => {
   return (
     <div>
-      <div className="w-full p-4 my-10 xl:px-12 h-auto xl:py-10 rounded-lg shadow-lg flex flex-col group">
+      <div className="w-full p-4 my-10 xl:px-12 h-5/6 xl:py-10 rounded-lg shadow-lg flex flex-col group">
         <a
           className="w-full h-[80%] overflow-hidden rounded-lg"
           href={demo}
@@ -16,7 +16,7 @@ const PortfolioCard = ({ title, des, src, code, demo }) => {
           rel="noreferrer"
         >
           <Image
-            className="w-full object-cover group-hover:scale-110 duration-300 cursor-pointer"
+            className="w-full object-cover group-hover:scale-110 duration-300 cursor-pointer rounded-lg"
             src={src}
             alt="project image"
             placeholder="blur"

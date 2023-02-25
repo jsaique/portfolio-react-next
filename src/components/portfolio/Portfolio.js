@@ -18,13 +18,13 @@ const Portfolio = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-        <PortfolioCard
+        {/* <PortfolioCard
           title="Space Tourism"
           des="This is one of the first Frontend Mentor project that I completed, I learned a lot of new skills from this project using (React and SCSS)."
           src={web1}
           code="https://github.com/jsaique/Space-Tourism"
           demo={"https://jass-space-tourism.netlify.app"}
-        />
+        /> */}
         <PortfolioCard
           title="Thoughty App"
           des="A place where you can share your thoughts and others can put comments on it, If you have a typo on your post just go to 'My post' and edit it! (Built with Nextjs(React) and Firebase)."
@@ -39,13 +39,13 @@ const Portfolio = () => {
           code={"https://github.com/jsaique/qr-code-generator"}
           demo={"https://jassqrcodegenerator.netlify.app"}
         />
-        <PortfolioCard
+        {/* <PortfolioCard
           title="Comming soon"
           des="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut suscipit ante, a fermentum nibh. Donec porttitor a ipsum et condimentum. Aliquam at eros ac turpis hendrerit aliquet quis et tellus. Cras sit amet rhoncus mauris."
           src={web4}
           code={"#"}
           demo={"#"}
-        />
+        /> */}
       </div>
     </section>
   );
