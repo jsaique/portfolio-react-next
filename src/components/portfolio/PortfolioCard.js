@@ -8,7 +8,7 @@ import "tippy.js/animations/scale.css";
 const PortfolioCard = ({ title, des, src, code, demo }) => {
   return (
     <div>
-      <div className="w-full p-4 my-10 xl:px-12 h-5/6 xl:py-10 rounded-lg shadow-lg flex flex-col group">
+      <div className="w-full p-8 my-10 xl:px-12 h-5/6 xl:py-10 rounded-lg shadow-lg flex flex-col group">
         <a
           className="w-full h-[80%] overflow-hidden rounded-lg"
           href={demo}
