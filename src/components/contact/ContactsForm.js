@@ -27,7 +27,7 @@ const ContactsForm = () => {
     if (formValues.email && formValues.subject && formValues.message) {
       emailjs
         .sendForm(
-          "service_dcrgcsk",
+          "service_9fehgbc",
           "template_9jg5whq",
           form.current,
           "DovzGJEX_b7hIpw4A"
@@ -44,12 +44,12 @@ const ContactsForm = () => {
     }
   };
 
-  // useEffect(() => {
-  //   // console.log(formErrors);
-  //   if (Object.keys(formErrors).length === 0 && submitted) {
-  //     // console.log(formValues);
-  //   }
-  // }, [formErrors]);
+  useEffect(() => {
+    // console.log(formErrors);
+    if (Object.keys(formErrors).length === 0 && submitted) {
+      // console.log(formValues);
+    }
+  }, [formErrors]);
 
   //Form validation
   const validate = (values) => {
