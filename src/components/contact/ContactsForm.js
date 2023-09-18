@@ -44,12 +44,12 @@ const ContactsForm = () => {
     }
   };
 
-  // useEffect(() => {
-  //   // console.log(formErrors);
-  //   if (Object.keys(formErrors).length === 0 && submitted) {
-  //     // console.log(formValues);
-  //   }
-  // }, [formErrors]);
+  useEffect(() => {
+    // console.log(formErrors);
+    if (Object.keys(formErrors).length === 0 && submitted) {
+      // console.log(formValues);
+    }
+  }, [formErrors]);
 
   //Form validation
   const validate = (values) => {
