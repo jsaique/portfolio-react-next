@@ -18,13 +18,13 @@ const Portfolio = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-        {/* <PortfolioCard
-          title="Space Tourism"
-          des="This is one of the first Frontend Mentor project that I completed, I learned a lot of new skills from this project using (React and SCSS)."
+        <PortfolioCard
+          title="Personal Portfolio V.2"
+          des="This is my Portfolio's second version Built with Nextjs, Framer Motion, Tailwind CSS and React Email."
           src={web1}
-          code="https://github.com/jsaique/Space-Tourism"
-          demo={"https://jass-space-tourism.netlify.app"}
-        /> */}
+          code="https://github.com/jsaique/portfolio-framer"
+          demo={"https://www.johnsaique.dev"}
+        />
         <PortfolioCard
           title="Thoughty App"
           des="A place where you can share your thoughts and others can put comments on it, If you have a typo on your post just go to 'My post' and edit it! (Built with Nextjs(React) and Firebase)."
